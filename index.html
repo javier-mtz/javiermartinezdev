@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JM - DEV</title>
+    <!-- color de tema -->
+    <meta name="theme-color" content="#1976D2">
+    <!-- optimizacion de mobiles -->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- meta etiquetas pwa para apple -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="icon/icon.png">
+    <meta name="apple-touch-startup-image" content="icon/icon.png">
+    <!-- PWA cargar manifiesto -->
+    <link rel="manifest" href="manifiest.json">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.0.0/dist/vuetify.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- main.js -->
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="app">
+        <v-app>
+            <v-app-bar app color="white" flat class="mb-12">
+                <v-toolbar-title class="font-weight-bold">Hi 👋 My name is Javier Martinez</v-toolbar-title>
+            </v-app-bar>
+
+            <v-container class="mt-8">
+                <v-row align="center" no-gutters>
+                    <v-col cols="12">
+                        <v-card class="px-2 px-sm-4 px-md-6 mx-2 mx-sm-4 mx-md-6 mx-lg-8 mx-xl-10 mt-12" elevation="12" style="border-radius:20px;">
+                            <v-row class="mb-8">
+                                <v-col cols="12" md="6" class="d-flex justify-center my-2">
+                                    <div style="width: 80%; margin: auto;">
+                                        <v-img src="assets/img/yo.png" alt="Javier Martínez" style="border-radius: 15px;"></v-img>
+                                    </div>
+                                </v-col>
+                                <v-col cols="12" md="6" class="d-flex flex-column justify-center">
+                                    <h1 class="display-1 font-weight-bold">Web Developer, Designer and networker</h1>
+                                    <p class="subtitle-1 mt-4 text-justify">
+                                        I have been working as a programmer for the past 2 years, and I find myself constantly fascinated by the ever-evolving
+                                        technology landscape. I love to take on new projects and challenges, as they provide me with opportunities to learn and
+                                        grow. Throughout my experience, I have gained knowledge in various technologies, but I have found that my passion lies
+                                        in front-end development. I enjoy the creative process of designing intuitive and visually appealing interfaces, as well
+                                        as the challenge of creating efficient and responsive web applications. In addition to web development, I have also
+                                        explored the world of hardware programming, specifically with Arduino. I have worked on several projects that involved
+                                        creating custom devices and sensors, and I find it incredibly rewarding to bring my software skills into the physical
+                                        world. Overall, I am constantly seeking new ways to expand my skill set and tackle exciting new projects. I am confident
+                                        in my ability to adapt to new technologies and collaborate effectively with teams to produce quality work.
+                                    </p>
+                                </v-col>
+                            </v-row>
+                            <v-divider></v-divider>
+                            <v-row class="mb-8">
+                                <v-col cols="12">
+                                    <v-row class="align-center mt-4">
+                                        <v-col cols="auto">
+                                            <h1 class="font-weight-bold">General Info</h1>
+                                        </v-col>
+                                    </v-row>
+                                    <v-row>
+                                        <v-col cols="12" md="6" class="d-flex flex-column justify-center">
+                                            <ul class="ml-4">
+                                                <li>🌍 I'm based in Chihuahua, Mx.</li>
+                                                <li>✉️ You can contact me at javr.brens@gmail.com</li>
+                                                <li>🧠 I'm learning blockchain technology.</li>
+                                                <li>🤝 I'm open to collaborating on new projects, work opportunities and crazy ideas.</li>
+                                                <li>⚡ Besides programming, I love playing golf, going to the gym, and hanging out with friends.</li>
+                                            </ul>
+                                        </v-col>
+                                        <v-col cols="12" md="6" class="d-flex justify-center">
+                                            <v-img src="assets/img/letters.gif" alt="Letras" style="border-radius: 15px; width: 100%; max-width: 400px;"></v-img>
+                                        </v-col>
+                                    </v-row>
+                                </v-col>
+                            </v-row>
+                            <v-divider></v-divider>
+                            <v-row class="mb-8">
+                                <v-col cols="12">
+                                    <v-row class="align-center mt-4 ml-4">
+                                        <v-col cols="auto">
+                                            <h1 class="font-weight-bold">Skills & Tools</h1>
+                                        </v-col>
+                                    </v-row>
+                                    <v-row>
+                                        <v-col cols="12" class="d-flex flex-column mt-6 mb-n8">
+                                            <p>
+                                                <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg"
+                                                        width="36" height="36" alt="C#" /></a>
+                                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
+                                                        width="36" height="36" alt="JavaScript" /></a>
+                                                <a href="https://kotlinlang.org/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/kotlin-colored.svg"
+                                                        width="36" height="36" alt="Kotlin" /></a>
+                                                <a href="https://www.php.net/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/php-colored.svg"
+                                                        width="36" height="36" alt="PHP" /></a>
+                                                <a href="https://dart.dev/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg"
+                                                        width="36" height="36" alt="Dart" /></a>
+                                                <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg"
+                                                        width="36" height="36" alt="C++" /></a>
+                                                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg"
+                                                        width="36" height="36" alt="HTML5" /></a>
+                                                <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+                                                        width="36" height="36" alt="React" /></a>
+                                                <a href="https://vuejs.org/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg"
+                                                        width="36" height="36" alt="Vue" /></a>
+                                                <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg"
+                                                        width="36" height="36" alt="CSS3" /></a>
+                                                <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg"
+                                                        width="36" height="36" alt="Bootstrap" /></a>
+                                                <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg"
+                                                        width="36" height="36" alt="TailwindCSS" /></a>
+                                                <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
+                                                        width="36" height="36" alt="NodeJS" /></a>
+                                                <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
+                                                        width="36" height="36" alt="MongoDB" /></a>
+                                                <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
+                                                        width="36" height="36" alt="MySQL" /></a>
+                                                <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg"
+                                                        width="36" height="36" alt="Firebase" /></a>
+                                                <a href="https://dotnet.microsoft.com/en-us/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dot-net-colored.svg"
+                                                        width="36" height="36" alt=".NET" /></a>
+                                                <a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg"
+                                                        width="36" height="36" alt="Flutter" /></a>
+                                                <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg"
+                                                        width="36" height="36" alt="Figma" /></a>
+                                                <a href="https://www.adobe.com/uk/products/premiere.html" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/premierepro-colored-dark.svg"
+                                                        width="36" height="36" alt="Premiere Pro" /></a>
+                                                <a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img
+                                                        src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored-dark.svg"
+                                                        width="36" height="36" alt="Photoshop" /></a>
+                                            </p>
+                                        </v-col> 
+                                    </v-row>
+                                </v-col>
+                            </v-row>
+                            <v-divider></v-divider>
+                            <v-row>
+                                <v-col cols="12">
+                                    <div class="d-flex justify-center" style="width: 100%; margin: auto;">
+                                        <v-img src="assets/img/building.jpg" alt="Building" style="border-radius: 15px; width: 100%; max-width: 400px;"></v-img>
+                                        <v-btn color="light-blue lighten-5" rounded class="text-uppercase" style="position: absolute; bottom: 20px; right: 30px;" @click="info">Solicitar Información</v-btn>
+                                    </div>
+                                </v-col>
+                            </v-row>
+                        </v-card>
+                    </v-col>
+                </v-row>
+            </v-container>
+        </v-app>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.0.0"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            vuetify: new Vuetify(),
+            data() {
+                return {
+                    porscheImages: [
+                        'assets/img/porsche-1.png',
+                        'assets/img/porsche-2.png',
+                        'assets/img/porsche-3.png',
+                        'assets/img/porsche-4.png',
+                        'assets/img/porsche-5.png',
+                    ],
+                };
+            },
+            methods: {
+                info() {
+                    // enseñar un TOAT que diga que la información ha sido enviada
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Información Enviada',
+                        text: 'Gracias por tu interés en el CV. Nos pondremos en contacto contigo a la brevedad.',
+                    });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
